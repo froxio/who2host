@@ -3,7 +3,7 @@ Simplified WIP
 
 ## Synopsis/Motivation (from about page)
 
-At the end of a long streaming session it's hard to find another stream to host. Recycling viewers to smaller, quality streams helps those streams grow and enriches the twitch community as a whole. What Who2Host strives to accomplish is making the diamond-in-the-rough streams easier to find. Who2Host also accommodates the average end user by making it easier to find fresh streamers to watch.
+At the end of a long streaming session it's hard to find another stream to host. Recycling viewers to smaller, quality streams helps those streams grow. This, in turn, diversifies and enriches the twitch community as a whole. What Who2Host strives to accomplish is making the diamond-in-the-rough streams easier to find for streamers and viewers alike.
 
 ## Installation/Startup
 - Pip dependencies are listed in requirements.txt (taken from pip freeze, use discretion)
