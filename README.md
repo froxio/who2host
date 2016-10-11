@@ -1,4 +1,4 @@
-# who2host
+# Who2Host
 Simplified WIP
 
 ## Synopsis/Motivation (from about page)
