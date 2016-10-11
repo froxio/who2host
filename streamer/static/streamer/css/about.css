@@ -1,0 +1,9 @@
+.about_container {
+	position: relative;
+	margin: auto;
+	width: 60%;
+}
+.about_container * {
+	float: left;
+	margin-right: 40%;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    {% load staticfiles %}
+    {% load humanize %}
+    <link rel="icon" href="{% static 'streamer/img/ch.png' %}">
+    <link href="{% static 'streamer/css/main.css' %}" rel="stylesheet">
+    <link href="{% static 'streamer/css/about.css' %}" rel="stylesheet">
+    <link href="{% static 'streamer/css/bootstrap.min.css' %}" rel="stylesheet">
+    </head>
+    <body><nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">Who2Host</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="about/">About</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>  
+        <div class="parent_container">
+            <div class="about_container">
+                       <h1>About Who2Host</h1>
+                       <p>At the end of a long streaming session it's hard to find another stream to host. Recycling viewers to smaller, quality streams helps those streams grow and enriches the twitch community as a whole. What Who2Host strives to accomplish is making the diamond-in-the-rough streams easier to find. Who2Host also accommodates the average end user by making it easier to find fresh streamers to watch.</p>
+            </div>
+        </div>
+    <!-- jQuery Version 1.11.1 -->
+    <script src="{% static 'streamer/js/jquery.js' %}"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{% static 'streamer/js/bootstrap.min.js' %}"></script>
+    </body>
+</html>

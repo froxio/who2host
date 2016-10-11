@@ -1,0 +1,9 @@
+.detail_container {
+	position: relative;
+	margin: auto;
+	width: 60%;
+}
+.detail_container * {
+	float: left;
+	margin-right: 40%;
+}
